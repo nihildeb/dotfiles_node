@@ -1,0 +1,23 @@
+[user]
+	email = nick.hildebrant@gmail.com
+	name = Nick Hildebrant
+[alias]
+	co = checkout
+  st = status
+  ci = commit
+  br = branch
+  co = checkout
+  df = diff
+  lg = log -p
+[color]
+	diff = auto
+	status = auto
+	branch = auto
+[core]
+	excludesfile = /home/nihildeb/.gitignore
+        ; take env editor
+	; editor = /usr/bin/vim
+[apply]
+	whitespace = nowarn
+[push]
+	default = tracking
